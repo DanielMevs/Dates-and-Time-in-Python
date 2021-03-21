@@ -2,10 +2,10 @@
 This repository explores ways of working with times and dates in Python. It explores the datetime module that comes with the standard Python library. We also look at dateparser, a third party Python package.
 
 ## Installations
-You need a version of Python3.7 or above. I had Python 3.6 installed and the .fromisoformat() method from datetime did not work. This is because I needed a later version of Python. All Python installations come with pip, a package manager, which will discussed further in this document.
+You need a version of Python3.7 or above. I am currently using Python 3.9 as it is the most updated version as of mid March 2021. I had Python 3.6 installed and the .fromisoformat() method from datetime did not work. This is because I needed a later version of Python. All Python installations come with pip, a package manager, which will discussed further in this document.
 On Ubuntu/Linux, to uninstall outdated versions of Python:
 
-$ ls* .sh https://stackoverflow.com/questions/48899604/how-to-uninstall-python-in-ubuntu-completely-and-reinstalling-it
+https://stackoverflow.com/questions/48899604/how-to-uninstall-python-in-ubuntu-completely-and-reinstalling-it
 ```
  - sudo rm -rf /usr/bin/python2.x as well as python3.x
  - sudo rm -rf /usr/lib/python2.x as well as python3.x
@@ -22,7 +22,18 @@ sudo make install
 ```
 Python should be installed now. Check by running python
 
+Python on other OS's are available at: https://www.python.org/downloads/ 
 
+##Example Usage
 
-On other OS's: https://www.python.org/downloads/ 
+Type ```python3``` and you should be taken to the Python interpreter. You can try the following out for youself to get a feel for how the different methods are used.
+
+##Setting up your dev environment
+In your terminal or command line prompt, type ```python --version``` to see that you have the appropriate version of Python is installed.
+Next, wherever you store your programming documents make a folder and go into it with the following commands:
+```mkdir Dates```
+```cd Dates```
+Then, we are going to install dateparser with the command ```pip3 install dateparser```
+If you enter ```pip3 list``` you will see that dateparser was installed as well as other secondary dependencies.
+
 
