@@ -3,9 +3,8 @@ This repository explores ways of working with times and dates in Python. It expl
 
 ## Installations
 You need a version of Python3.7 or above. I am currently using Python 3.9 as it is the most updated version as of mid March 2021. I had Python 3.6 installed and the .fromisoformat() method from datetime did not work. This is because I needed a later version of Python. All Python installations come with pip, a package manager, which will discussed further in this document.
-On Ubuntu/Linux, to uninstall outdated versions of Python:
+On Ubuntu/Linux, to [uninstall outdated versions of Python](https://stackoverflow.com/questions/48899604/how-to-uninstall-python-in-ubuntu-completely-and-reinstalling-it):
 
-https://stackoverflow.com/questions/48899604/how-to-uninstall-python-in-ubuntu-completely-and-reinstalling-it
 ```
  - sudo rm -rf /usr/bin/python2.x as well as python3.x
  - sudo rm -rf /usr/lib/python2.x as well as python3.x
