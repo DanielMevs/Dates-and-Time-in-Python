@@ -4,20 +4,20 @@ This repository explores ways of working with times and dates in Python. It expl
 # Installations
 You need a version of Python3.7 or above. I had Python 3.6 installed and the .fromisoformat did not work. This is because I needed a later version of Python. 
 On Ubuntu/Linux, to uninstall outdated versions of Python:
-'''
+```
  - sudo rm -rf /usr/bin/python2.x as well as python3.x
  - sudo rm -rf /usr/lib/python2.x as well as python3.x
  - sudo rm -rf /usr/local/lib/python2.x as well as python 3.x 
- '''
+ ```
 
 updating Ubuntu:
-''' -sudo apt-get update'''
+`` -sudo apt-get update``
 Now download a python tgz file from https://www.python.org/downloads/ and unzip it and CD into it
-'''
+```
 ./configure
 make test
 sudo make install
-'''
+```
 Python should be installed now. Check by running python
 
 On other OS's: https://www.python.org/downloads/ 
