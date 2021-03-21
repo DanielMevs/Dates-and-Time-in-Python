@@ -35,5 +35,8 @@ Next, wherever you store your programming documents make a folder and go into it
 ```cd Dates```
 Then, we are going to install dateparser with the command ```pip3 install dateparser```
 If you enter ```pip3 list``` you will see that dateparser was installed as well as other secondary dependencies.
+![image](https://user-images.githubusercontent.com/25753853/111908832-2133b700-8a31-11eb-8510-3b7d99506b48.png)
+![image](https://user-images.githubusercontent.com/25753853/111908831-209b2080-8a31-11eb-8aee-c1a0ad81cb32.png)
+
 
 
