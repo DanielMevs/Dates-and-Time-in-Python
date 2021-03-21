@@ -29,14 +29,21 @@ Python on other OS's are available at: https://www.python.org/downloads/
 Type ```python3``` and you should be taken to the Python interpreter. You can try the following out for youself to get a feel for how the different methods are used.
 
 ##Setting up your dev environment
+
 In your terminal or command line prompt, type ```python --version``` to see that you have the appropriate version of Python is installed.
-Next, wherever you store your programming documents make a folder and go into it with the following commands:\n
-```mkdir Dates```\n
-```cd Dates```\n
-Then, we are going to install dateparser with the command ```pip3 install dateparser```
-If you enter ```pip3 list``` you will see that dateparser was installed as well as other secondary dependencies.\n
+Next, wherever you store your programming documents, make a folder and go into it with the following commands: 
+```mkdir Dates```
+```cd Dates```.
+Then we are going to create an isolated virtual environment so that when we install third party packages, it won't take up too much space on your machine. 
+To make a new virtual environment folder, simply enter ```python3 -m venv venv``` for Linux and ```python -m venv venv``` for Windows. If you enter ```ls``` or ```dir``` you should see the venv folder. Also note, if you enter ```which pip3```, it will point to the directory of the virtual environment instead of the global environment. To activate your virtual environment, enter ```source ./venv/bin/activate``` for Linux and ```venv\Scripts\activate``` for Windows. Enter ```deactive``` to exit your virtual environemnt.
+
+Enter your virtual environment. We are going to restore requirements so that the third-party dateparser module works. Then, we are going to install dateparser with the command ```pip install -r requirements.txt```. Using this method, as oppposed to manually entering ```pip3 install [package_name]```, makes sure that the desired third-party packages, with the desired version pinning, is explicitly being used. It also makes repeatibility possible and cleanups simple.
+If you enter ```pip3 list``` you will see that dateparser was installed as well as other secondary/transitive dependencies.
 
 [image](https://user-images.githubusercontent.com/25753853/111908832-2133b700-8a31-11eb-8510-3b7d99506b48.png)
+
+To clear up some of the space that these third party packages take up, simple run the command ```pip3 uninstall [package_name]```.
+
 
 
 
