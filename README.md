@@ -1,7 +1,7 @@
 # Dates-and-Time-in-Python
 This repository explores ways of working with times and dates in Python. It explores the datetime module that comes with the standard Python library. We also look at dateparser, a third party Python package.
 
-# Installations
+## Installations
 You need a version of Python3.7 or above. I had Python 3.6 installed and the .fromisoformat did not work. This is because I needed a later version of Python. All Python installations come with pip, a package manager, which will discussed further in this document.
 On Ubuntu/Linux, to uninstall outdated versions of Python:
 ```
