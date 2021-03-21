@@ -33,6 +33,7 @@ In your terminal or command line prompt, type ```python --version``` to see that
 Next, wherever you store your programming documents, make a folder and go into it with the following commands: 
 - `mkdir Dates`
 - `cd Dates`
+
 Then we are going to create an isolated virtual environment so that when we install third party packages, it won't take up too much space on your machine. 
 To make a new virtual environment folder, simply enter ```python3 -m venv venv``` for Linux and ```python -m venv venv``` for Windows. If you enter ```ls``` or ```dir``` you should see the venv folder. Also note, if you enter ```which pip3```, it will point to the directory of the virtual environment instead of the global environment. To activate your virtual environment, enter ```source ./venv/bin/activate``` for Linux and ```venv\Scripts\activate``` for Windows. Enter ```deactive``` to exit your virtual environemnt.
 
