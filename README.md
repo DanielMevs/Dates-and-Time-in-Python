@@ -28,7 +28,7 @@ Python on other OS's are available at: https://www.python.org/downloads/
 
 Type ```python3``` and you should be taken to the Python interpreter. You can try the following out for youself to get a feel for how the different methods are used.
 
-##Setting up your dev environment
+## Setting up your dev environment
 
 In your terminal or command line prompt, type ```python --version``` to see that you have the appropriate version of Python is installed.
 Next, wherever you store your programming documents, make a folder and go into it with the following commands: 
