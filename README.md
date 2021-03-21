@@ -30,12 +30,13 @@ Type ```python3``` and you should be taken to the Python interpreter. You can tr
 
 ##Setting up your dev environment
 In your terminal or command line prompt, type ```python --version``` to see that you have the appropriate version of Python is installed.
-Next, wherever you store your programming documents make a folder and go into it with the following commands:
-```mkdir Dates```
-```cd Dates```
+Next, wherever you store your programming documents make a folder and go into it with the following commands:\n
+```mkdir Dates```\n
+```cd Dates```\n
 Then, we are going to install dateparser with the command ```pip3 install dateparser```
-If you enter ```pip3 list``` you will see that dateparser was installed as well as other secondary dependencies.
-<p>[image](https://user-images.githubusercontent.com/25753853/111908832-2133b700-8a31-11eb-8510-3b7d99506b48.png)</p>
+If you enter ```pip3 list``` you will see that dateparser was installed as well as other secondary dependencies.\n
+
+[image](https://user-images.githubusercontent.com/25753853/111908832-2133b700-8a31-11eb-8510-3b7d99506b48.png)
 
 
 
