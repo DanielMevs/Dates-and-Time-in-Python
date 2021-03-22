@@ -49,6 +49,11 @@ If your string is not in ISO-8401 format, you can always use the .strptime() met
 
 ![image](https://user-images.githubusercontent.com/25753853/112043146-bcef2100-8b1e-11eb-8b55-675e41d2fb8e.png)
 
+Other ways of creating datetime instances involve third party packages like dateparser (see *Development Setup* for more details). Dateparser is a library which allows you to provide natural language inputs. The follwoing is an example.
+
+![image](https://user-images.githubusercontent.com/25753853/112046645-b1055e00-8b22-11eb-89f2-7f37df1cff03.png)
+
+
 ## Setting up your dev environment
 
 In your terminal or command line prompt, type ```python --version``` to see that you have the appropriate version of Python is installed.
