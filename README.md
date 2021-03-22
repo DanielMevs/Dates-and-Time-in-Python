@@ -39,7 +39,7 @@ The datetime module is designed to make it less complicated to access attributes
 
 Other methods that datetime provides are __datetime.today()__ that creates a datetime instance with the current local date. __datetime.now()__ creates a datetime.datime instance with the current local date and time. __datetime.combin()__ combines instances of datetime.date and datetime.time into a single datetime.datetime instance. The following snippet shows an example.
 
-![image](https://user-images.githubusercontent.com/25753853/112037212-e22c6100-8b17-11eb-86de-056f3bf02149.png)
+![image](https://user-images.githubusercontent.com/25753853/112040700-e8244100-8b1b-11eb-8e07-c95409b9d793.png)
 
 Python also allows you to you create datetime instances from a string in ISO 8601 format using the .fromisoformat() method.
 
