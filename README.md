@@ -1,7 +1,9 @@
 # Dates and Time in Python
-This repository explores ways of working with times and dates in Python. It explores the datetime module that comes with the standard Python library. We also look at dateparser, a third party Python package.
+
+Dealing with time as a programmer can be tricky, especially if you take into account leap seconds, time-zone inconsistencies, culture influences, and more. This repository explores Python's great built-in modules such as time for time-related functions where dates are not needed. It also has a datetime module that supplies classes for manipulating dates and times. Calendar is another module that outputs calendars and provides functions using an idealized Gregorian calendar. We also look at dateparser, a third party Python package that packs a punch in terms of processing natural language. 
 
 ## Installations
+
 You need a version of Python3.7 or above. I am currently using Python 3.9 as it is the most updated version as of mid March 2021. I had Python 3.6 installed and the .fromisoformat() method from datetime did not work. This is because I needed a later version of Python. All Python installations come with pip, a package manager, which will discussed further in this document.
 On Ubuntu/Linux, to [uninstall](https://stackoverflow.com/questions/48899604/how-to-uninstall-python-in-ubuntu-completely-and-reinstalling-it) outdated versions of Python.:
 
@@ -27,7 +29,11 @@ Python on other OS's are available [here]( https://www.python.org/downloads/)
 
 Type ```python3``` and you should be taken to the Python interpreter. You can try the following out for youself to get a feel for how the different methods are used.
 
-(![image](https://user-images.githubusercontent.com/25753853/112026271-67aa1400-8b0c-11eb-90ac-4aa815f15578.png))
+The following shows the time module. Time in the time module is a datetime object. It has a method named time that returns the number of seconds since the UNIX epoch. As this file is being editted, that number is approximately 1616431766.3649557. This instant occured on Janruary 1st, 1970 and is what almost all computers count time from. 
+
+![image](https://user-images.githubusercontent.com/25753853/112026271-67aa1400-8b0c-11eb-90ac-4aa815f15578.png)
+
+The datetime module is designed to make it less complicated to access attributes of the object related to dates, times, and timezones. These objects include datetime.date which stores the *year*, *month*, and *day* atrributes. Datetime.time stores hour, min
 
 ## Setting up your dev environment
 
