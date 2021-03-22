@@ -27,8 +27,7 @@ Python on other OS's are available [here]( https://www.python.org/downloads/)
 
 Type ```python3``` and you should be taken to the Python interpreter. You can try the following out for youself to get a feel for how the different methods are used.
 
-(![image](https://user-images.githubusercontent.com/25753853/112026271-67aa1400-8b0c-11eb-90ac-4aa815f15578.png)
-https://octodex.github.com/images/yaktocat.png)
+(![image](https://user-images.githubusercontent.com/25753853/112026271-67aa1400-8b0c-11eb-90ac-4aa815f15578.png))
 
 ## Setting up your dev environment
 
