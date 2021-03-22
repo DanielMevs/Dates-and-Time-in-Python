@@ -45,8 +45,9 @@ Python also allows you to you create datetime instances from a string in ISO 860
 
 ![image](https://user-images.githubusercontent.com/25753853/112038496-4b60a400-8b19-11eb-9605-a3cd31842c4b.png)
 
+If your string is not in ISO-8401 format, you can always use the .strptime() method. This method uses a special mini-language to tell Python which parts of the string are associated with the *datetime* attributes. The following is an example:
 
-
+![image](https://user-images.githubusercontent.com/25753853/112043146-bcef2100-8b1e-11eb-8b55-675e41d2fb8e.png)
 
 ## Setting up your dev environment
 
