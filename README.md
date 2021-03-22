@@ -49,7 +49,7 @@ If your string is not in ISO-8401 format, you can always use the .strptime() met
 
 ![image](https://user-images.githubusercontent.com/25753853/112043146-bcef2100-8b1e-11eb-8b55-675e41d2fb8e.png)
 
-Other ways of creating datetime instances involve third party packages like dateparser (see *Development Setup* for more details). Dateparser is a library which allows you to provide natural language inputs. The follwoing is an example.
+Other ways of creating datetime instances involve third party packages like dateparser (see *Setting up your dev environment* for more details). Dateparser is a library which allows you to provide natural language inputs. The follwoing is an example.
 
 ![image](https://user-images.githubusercontent.com/25753853/112047833-23c30900-8b24-11eb-9f5f-81b836d25cbb.png)
 
@@ -67,11 +67,39 @@ To make a new virtual environment folder, simply enter ```python3 -m venv venv``
 Enter your virtual environment. We are going to restore requirements so that the third-party dateparser module works. Then, we are going to install dateparser with the command - ```pip install -r requirements.txt```. 
 
 Using this method, as oppposed to manually entering ```pip3 install [package_name]```, makes sure that the desired third-party packages, with the desired version pinning, is explicitly being used. It also makes repeatibility possible and cleanups simple.
-If you enter ```pip3 list``` you will see that dateparser was installed as well as other secondary/transitive dependencies.
+If you enter ```pip3 list``` you will see that dateparser was installed as well as other secondary/transitive dependencies. It should look like this:
 
-[image](https://user-images.githubusercontent.com/25753853/111908832-2133b700-8a31-11eb-8510-3b7d99506b48.png)
+![image](https://user-images.githubusercontent.com/25753853/112048678-0b072300-8b25-11eb-9420-c5b24cc06d28.png)
 
 To clear up some of the space that these third party packages take up, simple run the command ```pip3 uninstall [package_name]```.
+
+## How to Ship a Change
+
+Use the command ```pip list --outdated``` to view which packages are outdated, the current version and the most updated version number. To upgrade the package you can install a package manually using ```pip install package_name= 2.1.X``` for exampple or you can use ```pip install --upgrade [package_name]```. 
+
+You are also welcome to create your own branch, make pull requests, and leave comments. I may merge your changes with the main branch if I see a change that is relevent.
+
+## Change log
+
+Initially, I had a branch to do all my readme edits but I just kept commiting to my main branch so the changes are not well documented. But the main changes up to now have been editing the readme. 
+
+You can use datetime.now() to a stamp for each log. 
+
+datetime.datetime(2021, 3, 22, 16, 10, 6, 739554)
+
+## License and author info
+
+License type: MIT
+
+The main source for the material comes from an article by Bryan Weber which can be found [here](https://realpython.com/python-datetime/).
+
+Other related articles on the topic:
+- [Problem with timezones](https://www.youtube.com/watch?v=-5wpm-gesOY)
+- [Year 2038 Problem](https://en.wikipedia.org/wiki/Year_2038_problem)
+
+You can reach me at: dannymevs@hotmail.com
+
+
 
 
 
