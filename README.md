@@ -51,8 +51,7 @@ If your string is not in ISO-8401 format, you can always use the .strptime() met
 
 Other ways of creating datetime instances involve third party packages like dateparser (see *Development Setup* for more details). Dateparser is a library which allows you to provide natural language inputs. The follwoing is an example.
 
-![image](https://user-images.githubusercontent.com/25753853/112046645-b1055e00-8b22-11eb-89f2-7f37df1cff03.png)
-
+![image](https://user-images.githubusercontent.com/25753853/112047833-23c30900-8b24-11eb-9f5f-81b836d25cbb.png)
 
 ## Setting up your dev environment
 
