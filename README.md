@@ -37,6 +37,9 @@ The datetime module is designed to make it less complicated to access attributes
 
 ![image](https://user-images.githubusercontent.com/25753853/112034278-acd24400-8b14-11eb-81cb-cbe5b80bcff9.png)
 
+![image](https://user-images.githubusercontent.com/25753853/112037212-e22c6100-8b17-11eb-86de-056f3bf02149.png)
+
+
 
 ## Setting up your dev environment
 
