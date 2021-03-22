@@ -33,7 +33,7 @@ The following shows the time module. Time in the time module is a datetime objec
 
 ![image](https://user-images.githubusercontent.com/25753853/112026271-67aa1400-8b0c-11eb-90ac-4aa815f15578.png)
 
-The datetime module is designed to make it less complicated to access attributes of the object related to dates, times, and timezones. These objects include __datetime.date__ which stores the *year*, *month*, and *day* atrributes. __datetime.time__ stores *hour*, *minute*, *second*, *microsecond*, and *tzinfo* (time zone information). __datetime.datetime__ is a combination of of date and time. The following shows how to create datetime instances:
+The datetime module is designed to make it less complicated to access attributes of the object related to dates, times, and timezones. These objects include __datetime.date__ which stores the *year*, *month*, and *day* atrributes. __datetime.time__ stores *hour*, *minute*, *second*, *microsecond*, and *tzinfo* (time zone information). __datetime.datetime__ is a combination of date and time. The following shows how to create datetime instances:
 
 ![image](https://user-images.githubusercontent.com/25753853/112034278-acd24400-8b14-11eb-81cb-cbe5b80bcff9.png)
 
