@@ -53,6 +53,11 @@ Other ways of creating datetime instances involve third party packages like date
 
 ![image](https://user-images.githubusercontent.com/25753853/112047833-23c30900-8b24-11eb-9f5f-81b836d25cbb.png)
 
+Dateparser also includes the python-dateutil module. This module is quite useful, as it includes an interface to the IANA (the Internet Assigned Numbers Authorirty), an organization that maintains a database of all of the values of the time zone offsets. The following is an example: 
+
+![image](https://user-images.githubusercontent.com/25753853/112250738-4f331a00-8c30-11eb-9bcd-c50ef125419c.png)
+
+
 ## Setting up your dev environment
 
 In your terminal or command line prompt, type ```python --version``` to see that you have the appropriate version of Python is installed.
